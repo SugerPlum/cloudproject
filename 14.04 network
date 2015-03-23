@@ -5,3 +5,5 @@ Modify /etc/default/grub and add:
 #Then force the create of a new grub.cfgfile
 sudo update-grub
 #Then reboot the system
+
+At last,i think it's better to use file "interfaces" to control network only!remove other tools ,like network management~
