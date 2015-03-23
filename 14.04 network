@@ -1,0 +1,7 @@
+problem::the network name is not eth*
+solution:
+Modify /etc/default/grub and add:
+ GRUB_CMDLINE_LINUX_DEFAULT="net.ifnames=0 biosdevname=0"
+#Then force the create of a new grub.cfgfile
+sudo update-grub
+#Then reboot the system
