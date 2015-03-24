@@ -1,1 +1,2 @@
-while change grub,do not modify the exist 
+while change grub,do not modify the exist " GRUB_CMDLINE_LINUX_DEFAULT="" "
+you only need add new line at the end,although GRUB_CMDLINE_LINUX_DEFAULT will repeat
